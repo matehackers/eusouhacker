@@ -1,4 +1,9 @@
 Eusouhacker::Application.routes.draw do
+  
+  root :to => "testimonials#index"
+
+  resources :testimonials
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
